@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16243 MB
+OS: 'Windows 10 Pro; OS build 19042.1165; Version 2009; 64bit' Language: 'en' Physical Memory: 16227 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,184 +11,698 @@ C:\Program Files\Unity\Hub\Editor\2020.3.11f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/GGPC/Documents/GitHub/Bionic
+C:/Users/ghost/Documents/GitHub/Bionic
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56910
-Successfully changed project path to: C:/Users/GGPC/Documents/GitHub/Bionic
-C:/Users/GGPC/Documents/GitHub/Bionic
+50641
+Successfully changed project path to: C:/Users/ghost/Documents/GitHub/Bionic
+C:/Users/ghost/Documents/GitHub/Bionic
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 146.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.11f1 (99c7afb366b3)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/GGPC/Documents/GitHub/Bionic/Assets
+[Subsystems] Discovering subsystems at path C:/Users/ghost/Documents/GitHub/Bionic/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f08)
+    Renderer: Intel(R) UHD Graphics 620 (ID=0x5917)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   30.0.14.7111
+    VRAM:     8113 MB
+    Driver:   27.20.100.8854
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56224
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001859 seconds.
+Registered in 0.006004 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 31.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 113.24 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.122 seconds
+- Completed reload, in  3.035 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003700 seconds.
+Registered in 0.017459 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.70 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
+Find all reader and writers took 262 milliseconds
+Script Module: UnityEngine.UI.dll
+Weave behaviours and messages took 195 milliseconds
+Find all reader and writers took 204 milliseconds
+Script Module: UnityEngine.TestRunner.dll
+Weave behaviours and messages took 67 milliseconds
+Find all reader and writers took 186 milliseconds
+Script Module: SimpleWebTransport.dll
+Weave behaviours and messages took 16 milliseconds
+Find all reader and writers took 199 milliseconds
+Script Module: Unity.Timeline.dll
+Weave behaviours and messages took 85 milliseconds
+Find all reader and writers took 125 milliseconds
+Script Module: Assembly-CSharp.dll
+Weave behaviours and messages took 22 milliseconds
+Find all reader and writers took 164 milliseconds
+Script Module: Unity.TextMeshPro.dll
+Weave behaviours and messages took 167 milliseconds
+Find all reader and writers took 103 milliseconds
+Script Module: kcp2k.dll
+Weave behaviours and messages took 6 milliseconds
+Find all reader and writers took 120 milliseconds
+Script Module: Telepathy.dll
+Weave behaviours and messages took 5 milliseconds
+Find all reader and writers took 175 milliseconds
+Script Module: where-allocations.dll
+Weave behaviours and messages took 1 milliseconds
+Find all reader and writers took 263 milliseconds
+Script Module: UnityEditor.TestRunner.dll
+Weave behaviours and messages took 67 milliseconds
+Find all reader and writers took 293 milliseconds
+Script Module: UnityEditor.UI.dll
+Weave behaviours and messages took 23 milliseconds
+Find all reader and writers took 219 milliseconds
+Script Module: Mirror.CompilerSymbols.dll
+Weave behaviours and messages took 0 milliseconds
+Find all reader and writers took 189 milliseconds
+Script Module: Tests.dll
+Weave behaviours and messages took 0 milliseconds
 Mono: successfully reloaded assembly
-- Completed reload, in  0.928 seconds
+- Completed reload, in 10.666 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1499 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.6 MB.
-System memory in use after: 91.0 MB.
+Unloading 1777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.6 MB.
+System memory in use after: 86.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1953.
-Total: 1.829200 ms (FindLiveObjects: 0.132700 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.374300 ms  DeleteObjects: 0.283200 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Tests
-  artifactKey: Guid(aa8ba7b23335c9b4cbc4ddf5cba66774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tests using Guid(aa8ba7b23335c9b4cbc4ddf5cba66774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a99c011028f1810ed371ee95a6e679') in 0.007237 seconds
-  Import took 0.009793 seconds .
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2211.
+Total: 7.715200 ms (FindLiveObjects: 0.346900 ms CreateObjectMapping: 0.153600 ms MarkObjects: 6.817300 ms  DeleteObjects: 0.395400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.593396 seconds.
-  path: Assets/Tests/Tests.asmdef
-  artifactKey: Guid(dd0fdaa1f3ad7d64d99d3f1c77890aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tests/Tests.asmdef using Guid(dd0fdaa1f3ad7d64d99d3f1c77890aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd24621114364f052c7a7677d90f4579') in 0.039266 seconds
-  Import took 0.043748 seconds .
+  path: Assets/Flooded_Grounds/Scenes/Scene_A.unity
+  artifactKey: Guid(c0d944ca9defd20449bc336e50d75a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Scenes/Scene_A.unity using Guid(c0d944ca9defd20449bc336e50d75a08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e090b8d62385e3c933be3b2bfd4933a3') in 0.033512 seconds
+  Import took 0.038968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000673 seconds.
+  path: Assets/Biomechanical_Mutant
+  artifactKey: Guid(97758aa0dfc4fbc43a312542ec5b603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant using Guid(97758aa0dfc4fbc43a312542ec5b603e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452d56ca1aa67050f12eb5696ca3b28c') in 0.016723 seconds
+  Import took 0.022985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Flooded_Grounds/Scenes
+  artifactKey: Guid(31e2e1d8e55bde84ea36da51fd5c6a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Scenes using Guid(31e2e1d8e55bde84ea36da51fd5c6a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6682897c4a3ddb66460e76e45e13ef5') in 0.014273 seconds
+  Import took 0.021175 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Flooded_Grounds/Scenes/Scene_A_Terrain.asset
+  artifactKey: Guid(3067f4c4673ebb049b67c5cadc9ef499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Scenes/Scene_A_Terrain.asset using Guid(3067f4c4673ebb049b67c5cadc9ef499) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac6d2d209ccb35e0b399e1015baae1a') in 0.377527 seconds
+  Import took 0.404513 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000494 seconds.
+  path: Assets/Flooded_Grounds
+  artifactKey: Guid(55a84a63eb262c7498cd36a88854f0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds using Guid(55a84a63eb262c7498cd36a88854f0c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad9252b6354e0fb0279f71fd99e8a19') in 0.022500 seconds
+  Import took 0.029592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000574 seconds.
+  path: Assets/Flooded_Grounds/Scenes/Postprocess_FloodedGrounds.asset
+  artifactKey: Guid(29ac70c6bc481c64fb76807cbc16dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Flooded_Grounds/Scenes/Postprocess_FloodedGrounds.asset using Guid(29ac70c6bc481c64fb76807cbc16dc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad6d612f5b982417fd66cdd31d33f1a') in 0.040861 seconds
+  Import took 0.046361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 145.982425 seconds.
+  path: Assets/Biomechanical_Mutant/Mesh/SK_Bio_Mutant.fbx
+  artifactKey: Guid(655a837a2979acd49b85d1a0401fc0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Mesh/SK_Bio_Mutant.fbx using Guid(655a837a2979acd49b85d1a0401fc0aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a379680731963fc2b4f70cd1182ac22') in 1.467734 seconds
+  Import took 1.478495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.975031 seconds.
+  path: Assets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Bottom.mat
+  artifactKey: Guid(dc30d0f173c2c674091d33a2f0b74d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Bottom.mat using Guid(dc30d0f173c2c674091d33a2f0b74d1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6673c06a31f9c22f518abd8b4a1c4345') in 0.720708 seconds
+  Import took 0.739781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Top.mat
+  artifactKey: Guid(a2fa1990d06d9eb4a8e274c18b642246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Top.mat using Guid(a2fa1990d06d9eb4a8e274c18b642246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22ea21b888518e6f9d9f6b4dd6d99a8') in 0.354527 seconds
+  Import took 0.382843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000887 seconds.
+  path: Assets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Top_bloody.mat
+  artifactKey: Guid(d28a4eedad2b73b4d80756f21e2677d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Top_bloody.mat using Guid(d28a4eedad2b73b4d80756f21e2677d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76583dfdefd886360c53b9f360c81081') in 0.199567 seconds
+  Import took 0.235600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000981 seconds.
+  path: Assets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Bottom_bloody.mat
+  artifactKey: Guid(e1efdadb20b8fc24fb96b543fc7db3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Materials/M_BM_Skin_1_Bottom_bloody.mat using Guid(e1efdadb20b8fc24fb96b543fc7db3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '922ca5f854f7086070f4001e7f26cd45') in 0.285737 seconds
+  Import took 0.333003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147208 seconds.
+  path: Assets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_1.prefab
+  artifactKey: Guid(2b95b8c937251bf4a862469a23da16b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_1.prefab using Guid(2b95b8c937251bf4a862469a23da16b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5e1fa84998d6b3af45617597ca6077') in 0.451762 seconds
+  Import took 0.479929 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000488 seconds.
+  path: Assets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_1_bloody.prefab
+  artifactKey: Guid(4e14536821986c54bb8c6d3160c19cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_1_bloody.prefab using Guid(4e14536821986c54bb8c6d3160c19cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a56a7ac2d0dfb64dcc521c1cc31ee6f') in 0.324068 seconds
+  Import took 0.345055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_2_bloody.prefab
+  artifactKey: Guid(bf305a5598f882b4facd6c8c44530a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_2_bloody.prefab using Guid(bf305a5598f882b4facd6c8c44530a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbabb0a11890cd64933f28894b348cef') in 0.129585 seconds
+  Import took 0.152991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_2.prefab
+  artifactKey: Guid(df4b716990baa80499a4641dbb1c1258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Prefabs/Biomech_Mutant_Skin_2.prefab using Guid(df4b716990baa80499a4641dbb1c1258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a48fbdf02ed6e1a0cf0ac6099e5b152') in 0.179553 seconds
+  Import took 0.206298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.526746 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1
+  artifactKey: Guid(ffa963a8aa856d742816acd824fcb235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1 using Guid(ffa963a8aa856d742816acd824fcb235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7bf7ba9dfcc8319e3787bafce550d1') in 0.024100 seconds
+  Import took 0.034123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103411 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_a.png
+  artifactKey: Guid(3da93bd5d8460764f9e6f1ca6cc3b36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_a.png using Guid(3da93bd5d8460764f9e6f1ca6cc3b36c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90377f0577fe8b911be9a3f278edf6c0') in 0.124295 seconds
+  Import took 0.138262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000846 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_emissive.png
+  artifactKey: Guid(5246018d188625049813d0cb7579d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_emissive.png using Guid(5246018d188625049813d0cb7579d961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c243704a820a04f79ddba0c6922c087') in 0.069173 seconds
+  Import took 0.080656 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_n.png
+  artifactKey: Guid(c68f4db1e3d5696449456ad935d3330c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_n.png using Guid(c68f4db1e3d5696449456ad935d3330c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '795b24dc9b28e5c30e0ff5da7b61f455') in 0.119121 seconds
+  Import took 0.129356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_a.png
+  artifactKey: Guid(eb56013c82530874c86643222a6472f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_a.png using Guid(eb56013c82530874c86643222a6472f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627247cf10de3e127becf8e63dd381e9') in 0.082154 seconds
+  Import took 0.095087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000647 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_emissive.png
+  artifactKey: Guid(9758aa802b536d4448e4e2714aee4d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_emissive.png using Guid(9758aa802b536d4448e4e2714aee4d86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3dba6864f64e1d86e8a4c888a001db') in 0.120692 seconds
+  Import took 0.135841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000878 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_n.png
+  artifactKey: Guid(c20592f66c11ece4b87ecfbbe42b1fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_n.png using Guid(c20592f66c11ece4b87ecfbbe42b1fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63727eb4886986c564f849ece8f9e404') in 0.176168 seconds
+  Import took 0.194174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000788 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_RGBA.png
+  artifactKey: Guid(f99c3ca91879e2d4dabc5002eb4cb2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Bottom_RGBA.png using Guid(f99c3ca91879e2d4dabc5002eb4cb2cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32816c23179a6ea5a1eb41ac9f9043bf') in 0.139599 seconds
+  Import took 0.155679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_RGBA.png
+  artifactKey: Guid(5aa032e285f92f647a9fb28e592dd6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/T_Biomech_Mutant_Skin_1_Top_RGBA.png using Guid(5aa032e285f92f647a9fb28e592dd6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26893e108a02e9d0f8cb4e21bbdf50a9') in 0.128846 seconds
+  Import took 0.149018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.569778 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody
+  artifactKey: Guid(cd9c983b7cf62cc449ec333568d044fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody using Guid(cd9c983b7cf62cc449ec333568d044fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1b7e30d67c9984e86d821fed9a27e0') in 0.016752 seconds
+  Import took 0.024310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.764575 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Bottom_Bloody_a.png
+  artifactKey: Guid(a801a2078c00a6f419f03328f7ce96e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Bottom_Bloody_a.png using Guid(a801a2078c00a6f419f03328f7ce96e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ba9a0b252efa746f94270441938149') in 0.049969 seconds
+  Import took 0.057571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Top_Bloody_RGBA.png
+  artifactKey: Guid(062de303a0c6df445a7a13da3f6cca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Top_Bloody_RGBA.png using Guid(062de303a0c6df445a7a13da3f6cca9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e6313941189c3a0103fa7c8ac744919') in 0.047108 seconds
+  Import took 0.056475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000670 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Top_Bloody_a.png
+  artifactKey: Guid(62671874904a6f44dabc27c78048f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Top_Bloody_a.png using Guid(62671874904a6f44dabc27c78048f93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0515dba1c0afa21764eb6ad56e6da25a') in 0.052944 seconds
+  Import took 0.063932 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Bottom_Bloody_n.png
+  artifactKey: Guid(c838945db640e8644a7efc78d0828b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Bottom_Bloody_n.png using Guid(c838945db640e8644a7efc78d0828b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d45de32b979de5b1397aa22c3f562e') in 0.070752 seconds
+  Import took 0.082122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001146 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Bottom_Bloody_RGBA.png
+  artifactKey: Guid(f1f9bd00a52eb0d44882a8a688ee725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Bottom_Bloody_RGBA.png using Guid(f1f9bd00a52eb0d44882a8a688ee725f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '916ca2db0fb6a54329c0f41e05fd3067') in 0.127831 seconds
+  Import took 0.139713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000651 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Top_Bloody_n.png
+  artifactKey: Guid(336745cbfbdc18c438671f66caf868b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_1/Bloody/T_Biomech_Mutant_Skin_1_Top_Bloody_n.png using Guid(336745cbfbdc18c438671f66caf868b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31fa45b78b115996a0cfb1e0b8484e66') in 0.116575 seconds
+  Import took 0.130646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.937457 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_2/M_BM_Skin_2_Bottom.mat
+  artifactKey: Guid(5dd5e2d9345a2184a86b6b699de2bb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_2/M_BM_Skin_2_Bottom.mat using Guid(5dd5e2d9345a2184a86b6b699de2bb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d8b33c743a965d8232ad042f7fb5757') in 0.046368 seconds
+  Import took 0.054696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000546 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_2/M_BM_Skin_2_Top.mat
+  artifactKey: Guid(0605da1102e107d42b1a25384d0471c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_2/M_BM_Skin_2_Top.mat using Guid(0605da1102e107d42b1a25384d0471c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1657dd3d49dcbd33ddad337dbe8b7610') in 0.052092 seconds
+  Import took 0.059812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_RGBA.png
+  artifactKey: Guid(03d11f38e199544448ce82e14fa0ee60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_RGBA.png using Guid(03d11f38e199544448ce82e14fa0ee60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d480ba90969fe9f1e0309f75b51658') in 0.037514 seconds
+  Import took 0.043744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_a.png
+  artifactKey: Guid(39f795a5248b99b40b329724870b6139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_a.png using Guid(39f795a5248b99b40b329724870b6139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f308e3f08695a1cda354ee678a68bc8') in 0.090350 seconds
+  Import took 0.097768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000606 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_emissive.png
+  artifactKey: Guid(5f4d45cd7d727864e8c13a7785b420bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_emissive.png using Guid(5f4d45cd7d727864e8c13a7785b420bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d8bf82c8c6f3c454f4417dd07b67bf') in 0.037863 seconds
+  Import took 0.047177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000632 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_emissive.png
+  artifactKey: Guid(54d2f9f2971952d4ea74f8373ae62889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_emissive.png using Guid(54d2f9f2971952d4ea74f8373ae62889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56bcb929f8728e7d3908a59bb0d14088') in 0.117504 seconds
+  Import took 0.130516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001450 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_n.png
+  artifactKey: Guid(bc8ffd3bb1b0c974da3cce99959873fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_n.png using Guid(bc8ffd3bb1b0c974da3cce99959873fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7151ae6f3e745d02157c9d76cd6ff5d') in 0.046328 seconds
+  Import took 0.055174 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_n.png
+  artifactKey: Guid(8bf38b4bd2f1daf4a8fff98a50d7f9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_n.png using Guid(8bf38b4bd2f1daf4a8fff98a50d7f9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4d6ef56950572ecf0755740de9005d') in 0.091593 seconds
+  Import took 0.101924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000852 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_RGBA.png
+  artifactKey: Guid(ea3e1a4a17074924285b940c5c94740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Bottom_RGBA.png using Guid(ea3e1a4a17074924285b940c5c94740c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e697214c31adfaea60cba8798fbebef') in 0.053429 seconds
+  Import took 0.062716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000640 seconds.
+  path: Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_a.png
+  artifactKey: Guid(d04953c330a1637409232defceaa69ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Textures/Skin_2/T_Biomech_Mutant_Skin_2_Top_a.png using Guid(d04953c330a1637409232defceaa69ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c96a566099b8da46db384978b95ec2') in 0.089246 seconds
+  Import took 0.100671 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003477 seconds.
+Registered in 0.049271 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 2.22 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.812 seconds
+- Completed reload, in  6.212 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1464 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.2 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1956.
-Total: 2.000400 ms (FindLiveObjects: 0.161100 ms CreateObjectMapping: 0.058000 ms MarkObjects: 1.511300 ms  DeleteObjects: 0.269200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.421445 seconds.
-  path: Assets/Tests/NewTestScript.cs
-  artifactKey: Guid(7f69daf2f116eef438559a44c769c9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tests/NewTestScript.cs using Guid(7f69daf2f116eef438559a44c769c9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6b2a1227431025b2a4076dafc19c54') in 0.019568 seconds
-  Import took 0.022035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.038768 seconds.
-  path: Assets/Tests/NewTestScript.cs
-  artifactKey: Guid(7f69daf2f116eef438559a44c769c9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tests/NewTestScript.cs using Guid(7f69daf2f116eef438559a44c769c9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed6b2a1227431025b2a4076dafc19c54') in 0.001999 seconds
-  Import took 0.004329 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004769 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.811 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1465 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.8 MB.
-System memory in use after: 88.3 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1960.
-Total: 1.877100 ms (FindLiveObjects: 0.127900 ms CreateObjectMapping: 0.035600 ms MarkObjects: 1.427200 ms  DeleteObjects: 0.285500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005803 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Failed to find Mirror runtime assembly
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
-
-Failed to find Mirror runtime assembly
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
-
-Failed to find Mirror runtime assembly
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-Mirror.Weaver.CompilationFinishedHook:OnCompilationFinished (string,UnityEditor.Compilation.CompilerMessage[]) (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:116)
-Mirror.Weaver.CompilationFinishedHook:WeaveExistingAssemblies () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:62)
-Mirror.Weaver.CompilationFinishedHook:OnInitializeOnLoad () (at Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs:52)
-
-(Filename: Assets/Mirror/Editor/Weaver/CompilationFinishedHook.cs Line: 116)
-
-[ScriptCompilation] NOT recompiling all scripts because this is an import worker process. Reason to compile was: Define symbols changed
-Mono: successfully reloaded assembly
-- Completed reload, in  1.045 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.62 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1742 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 96.6 MB.
-System memory in use after: 96.1 MB.
+System memory in use before: 102.0 MB.
+System memory in use after: 101.3 MB.
 
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 2235.
-Total: 2.073100 ms (FindLiveObjects: 0.149800 ms CreateObjectMapping: 0.047800 ms MarkObjects: 1.552300 ms  DeleteObjects: 0.322000 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2262.
+Total: 11.222300 ms (FindLiveObjects: 0.678500 ms CreateObjectMapping: 0.311400 ms MarkObjects: 7.902700 ms  DeleteObjects: 2.325700 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024717 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.987 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1742 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.5 MB.
+System memory in use after: 101.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 5.857100 ms (FindLiveObjects: 0.455200 ms CreateObjectMapping: 0.190900 ms MarkObjects: 4.801600 ms  DeleteObjects: 0.406900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.026820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.423 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1742 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.5 MB.
+System memory in use after: 101.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 4.404100 ms (FindLiveObjects: 0.447300 ms CreateObjectMapping: 0.117100 ms MarkObjects: 3.432100 ms  DeleteObjects: 0.405900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016852 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.204 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1742 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.6 MB.
+System memory in use after: 101.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 5.011600 ms (FindLiveObjects: 0.569200 ms CreateObjectMapping: 0.231000 ms MarkObjects: 3.956500 ms  DeleteObjects: 0.253200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4192.061525 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d402b061de3733987d63b9cc3b64de') in 0.026217 seconds
+  Import took 0.034440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.677951 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(4b6aecdf1b9b93c4d81a8431e247f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(4b6aecdf1b9b93c4d81a8431e247f5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f801dbfe0739e446771bdff6fb56c756') in 0.029097 seconds
+  Import took 0.038433 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.961082 seconds.
+  path: Assets/Animation/playerController.controller
+  artifactKey: Guid(d9deac3c7cae3bf40a942547f01140d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/playerController.controller using Guid(d9deac3c7cae3bf40a942547f01140d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd994b044bdb112e2afa8694fe3993e56') in 0.053780 seconds
+  Import took 0.061266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 136.275397 seconds.
+  path: Assets/Biomechanical_Mutant/Mesh
+  artifactKey: Guid(769fb3e6d9b94e6499be0544158585bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Mesh using Guid(769fb3e6d9b94e6499be0544158585bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c31e1895ace7c4bc79b1b10d6f7645b') in 0.013726 seconds
+  Import took 0.019532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013287 seconds.
+  path: Assets/Biomechanical_Mutant/Mesh
+  artifactKey: Guid(769fb3e6d9b94e6499be0544158585bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Mesh using Guid(769fb3e6d9b94e6499be0544158585bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c31e1895ace7c4bc79b1b10d6f7645b') in 0.004879 seconds
+  Import took 0.011770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 140.929012 seconds.
+  path: Assets/Biomechanical_Mutant/Mesh/Take 001.anim
+  artifactKey: Guid(521ce712e659fef43a1785792e3d5dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Mesh/Take 001.anim using Guid(521ce712e659fef43a1785792e3d5dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c5912896b89bb0decf679344a3e0e5') in 0.023968 seconds
+  Import took 0.028689 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.371102 seconds.
+  path: Assets/Biomechanical_Mutant/Mesh/Take 002.anim
+  artifactKey: Guid(d32bd84bae368144d9edd3b2763e5efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Mesh/Take 002.anim using Guid(d32bd84bae368144d9edd3b2763e5efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0982033d65606f336b9a6ae1fd524cc2') in 0.022679 seconds
+  Import took 0.030477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020754 seconds.
+  path: Assets/Biomechanical_Mutant/Mesh/Take 002.anim
+  artifactKey: Guid(d32bd84bae368144d9edd3b2763e5efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Mesh/Take 002.anim using Guid(d32bd84bae368144d9edd3b2763e5efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0982033d65606f336b9a6ae1fd524cc2') in 0.008770 seconds
+  Import took 0.015544 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.661923 seconds.
+  path: Assets/Biomechanical_Mutant/Mesh/idle.anim
+  artifactKey: Guid(521ce712e659fef43a1785792e3d5dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Mesh/idle.anim using Guid(521ce712e659fef43a1785792e3d5dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19905d25f4c2017d89964349e1410c61') in 0.020657 seconds
+  Import took 0.028831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.616577 seconds.
+  path: Assets/Biomechanical_Mutant/Mesh/walking.anim
+  artifactKey: Guid(d32bd84bae368144d9edd3b2763e5efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Mesh/walking.anim using Guid(d32bd84bae368144d9edd3b2763e5efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7581bc192291bb06173fd1d179672dd1') in 0.018624 seconds
+  Import took 0.024717 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.592341 seconds.
+  path: Assets/Biomechanical_Mutant/Mesh/Take 001.anim
+  artifactKey: Guid(afd3f4031e8fb9542b7432a06eb7d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Mesh/Take 001.anim using Guid(afd3f4031e8fb9542b7432a06eb7d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7ba7f03647f59cf63b6d7eda829693') in 0.008772 seconds
+  Import took 0.015770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.058121 seconds.
+  path: Assets/Biomechanical_Mutant/Mesh/Running.anim
+  artifactKey: Guid(afd3f4031e8fb9542b7432a06eb7d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Mesh/Running.anim using Guid(afd3f4031e8fb9542b7432a06eb7d210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f805d350e98e98a3076601ec4ae7d909') in 0.020579 seconds
+  Import took 0.028262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.242407 seconds.
+  path: Assets/Animation/playerController.controller
+  artifactKey: Guid(d9deac3c7cae3bf40a942547f01140d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/playerController.controller using Guid(d9deac3c7cae3bf40a942547f01140d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ad8ba465b9adaa1846e6e68a6abd1c') in 0.007921 seconds
+  Import took 0.015676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023916 seconds.
+  path: Assets/Animation/playerController.controller
+  artifactKey: Guid(d9deac3c7cae3bf40a942547f01140d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/playerController.controller using Guid(d9deac3c7cae3bf40a942547f01140d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26ad8ba465b9adaa1846e6e68a6abd1c') in 0.007425 seconds
+  Import took 0.012791 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.024630 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.321 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1742 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.6 MB.
+System memory in use after: 101.3 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 9.251300 ms (FindLiveObjects: 0.606500 ms CreateObjectMapping: 0.192100 ms MarkObjects: 7.903100 ms  DeleteObjects: 0.545400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 774.440181 seconds.
+  path: Assets/Biomechanical_Mutant/Prefabs
+  artifactKey: Guid(4ff46e7f370b72844bfbf77133bf638f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Prefabs using Guid(4ff46e7f370b72844bfbf77133bf638f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16834dcaf3811c738a2767841ea0ea0') in 0.019731 seconds
+  Import took 0.029371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.031310 seconds.
+  path: Assets/Biomechanical_Mutant/Prefabs
+  artifactKey: Guid(4ff46e7f370b72844bfbf77133bf638f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Biomechanical_Mutant/Prefabs using Guid(4ff46e7f370b72844bfbf77133bf638f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16834dcaf3811c738a2767841ea0ea0') in 0.005583 seconds
+  Import took 0.012687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.778899 seconds.
+  path: Assets/Animation/Idle To Running.fbx
+  artifactKey: Guid(4763d6bfa8546fd49b023248524edcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Idle To Running.fbx using Guid(4763d6bfa8546fd49b023248524edcb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0d2b04a4965824f3840bfe104bf52de') in 0.308459 seconds
+  Import took 0.317006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.169387 seconds.
+  path: Assets/Animation/mixamo.com.anim
+  artifactKey: Guid(9245c4cbecc98c5449b5ec4e450d9330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/mixamo.com.anim using Guid(9245c4cbecc98c5449b5ec4e450d9330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f404e4ca167dc4bd66f0ce316fe7ffd') in 0.025705 seconds
+  Import took 0.030858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018623 seconds.
+  path: Assets/Animation/mixamo.com.anim
+  artifactKey: Guid(9245c4cbecc98c5449b5ec4e450d9330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/mixamo.com.anim using Guid(9245c4cbecc98c5449b5ec4e450d9330) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f404e4ca167dc4bd66f0ce316fe7ffd') in 0.018846 seconds
+  Import took 0.025512 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013907 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.733 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1742 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.6 MB.
+System memory in use after: 101.4 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2278.
+Total: 4.234800 ms (FindLiveObjects: 0.398900 ms CreateObjectMapping: 0.141300 ms MarkObjects: 3.433900 ms  DeleteObjects: 0.258500 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
