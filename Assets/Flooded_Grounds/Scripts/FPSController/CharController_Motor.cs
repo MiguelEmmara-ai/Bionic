@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CharController_Motor : MonoBehaviour {
 
-	public float speed = 10.0f;
-	public float sensitivity = 30.0f;
+	public float PlayerSpeed = 10.0f;
+	public float MouseSensitivity = 30.0f;
 	public float WaterHeight = 15.5f;
 	CharacterController character;
 	public GameObject cam;
@@ -20,7 +20,7 @@ public class CharController_Motor : MonoBehaviour {
 		character = GetComponent<CharacterController> ();
 		if (Application.isEditor) {
 			webGLRightClickRotation = false;
-			sensitivity = sensitivity * 1.5f;
+			MouseSensitivity = MouseSensitivity * 1.5f;
 		}
 	}
 
@@ -36,11 +36,11 @@ public class CharController_Motor : MonoBehaviour {
 
 
 	void Update(){
-		moveFB = Input.GetAxis ("Horizontal") * speed;
-		moveLR = Input.GetAxis ("Vertical") * speed;
+		moveFB = Input.GetAxis ("Horizontal") * PlayerSpeed;
+		moveLR = Input.GetAxis ("Vertical") * PlayerSpeed;
 
-		rotX = Input.GetAxis ("Mouse X") * sensitivity;
-		rotY = Input.GetAxis ("Mouse Y") * sensitivity;
+		rotX = Input.GetAxis ("Mouse X") * MouseSensitivity;
+		rotY = Input.GetAxis ("Mouse Y") * MouseSensitivity;
 
 		//rotX = Input.GetKey (KeyCode.Joystick1Button4);
 		//rotY = Input.GetKey (KeyCode.Joystick1Button5);
