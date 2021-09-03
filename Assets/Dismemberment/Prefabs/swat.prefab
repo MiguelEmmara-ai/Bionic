@@ -636,7 +636,8 @@ GameObject:
   - component: {fileID: 1948733691997100904}
   - component: {fileID: 8410035315091561274}
   - component: {fileID: 4150529161163870543}
-  - component: {fileID: 8911075416429391416}
+  - component: {fileID: 4546180596028966754}
+  - component: {fileID: 1035602833777818169}
   m_Layer: 0
   m_Name: swat
   m_TagString: Player
@@ -733,7 +734,7 @@ CapsuleCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2254275742234642237}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   m_Radius: 0.3
   m_Height: 2
@@ -773,7 +774,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 3
---- !u!114 &8911075416429391416
+--- !u!114 &4546180596028966754
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -782,16 +783,33 @@ MonoBehaviour:
   m_GameObject: {fileID: 2254275742234642237}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 500e73ec8a886c14fbc4e24be35ab7e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 7c7b31378acec85469f45d9a6a3ace64, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  controller: {fileID: 8410035315091561274}
-  moveSpeed: 15
-  strafeSpeed: 5
-  turnSpeed: 180
-  lookSpeed: 75
+  PlayerSpeed: 10
+  MouseSensitivity: 30
+  WaterHeight: 15.5
+  animator: {fileID: 5159315107455391828}
+  cam: {fileID: 9071524479502386080}
+  webGLRightClickRotation: 0
+--- !u!114 &1035602833777818169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2254275742234642237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f6f3bf89aa97405989c802ba270f815, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  clientAuthority: 1
+  animator: {fileID: 5159315107455391828}
 --- !u!1 &2316165421490213963
 GameObject:
   m_ObjectHideFlags: 0
@@ -2551,7 +2569,7 @@ GameObject:
   - component: {fileID: 2257563627101185889}
   - component: {fileID: 5091834156698880057}
   m_Layer: 0
-  m_Name: Camera
+  m_Name: Camera_player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2565,7 +2583,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9071524479502386080}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.651, z: 0}
+  m_LocalPosition: {x: 0, y: 1.695, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3581789352388355230}
@@ -2596,7 +2614,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 90
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
