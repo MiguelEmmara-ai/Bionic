@@ -1,13 +1,15 @@
-﻿using System.Collections;
+﻿using Mirror;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SimpleFPSController : MonoBehaviour
+public class SimpleFPSController : NetworkBehaviour
 {
     Transform myTransform;
 
-    [SerializeField] Transform mainCamera;
+    [SerializeField] private CharacterController controller;
     [SerializeField] float moveSpeed = 15, strafeSpeed = 5, turnSpeed = 180, lookSpeed = 75;
+
 
     float mouseRotationX = 0f;
 
@@ -40,20 +42,13 @@ public class SimpleFPSController : MonoBehaviour
             mouseRotationX += Input.GetAxis("Mouse Y") * lookSpeed * Time.deltaTime;
 
             mouseRotationX = Mathf.Clamp(mouseRotationX, -60F, 60F);
-
-            mainCamera.localEulerAngles = new Vector3(-mouseRotationX, 0,0);
         }
 
         if (Input.GetMouseButtonDown(0))
         {
             RaycastHit hit;
 
-            if(Physics.Raycast(mainCamera.position, mainCamera.forward, out hit, Mathf.Infinity))
-            {
-                
-            }
+           
         }
-
-        Debug.DrawRay(mainCamera.position, mainCamera.forward);
     }
 }
